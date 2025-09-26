@@ -42,7 +42,7 @@ class _piramidaPageState extends State<piramidaPage> {
   void _hitungPiramida() {
     setState(() {
       _errorMessage = "";
-      _hasilVolume = "N/A";
+      _hasilVolume = "TIDAK BISA DIHITUNG";
       _hasilKeliling = "PIRAMIDA TIDAK BISA\nDIHITUNG KELILINGNYA";
 
       final String aText = _rusukAlasController.text;
